@@ -1,0 +1,41 @@
+http://bbs.csdn.net/topics/390726312
+
+加隆：203763
+修罗：291268
+
+
+我把梦撕碎，丢到没人的地方，
+我恨这社会，让我遍体鳞伤。
+都是为了生活，忙碌着一生，
+其实生活本来就该这样吗？
+谁让我是男人，不能哭不能闹。
+生活就这样，
+
+
+
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+	<!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+	<!--xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"-->
+	<!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
+		<!--http://www.springframework.org/schema/beans/spring-beans.xsd-->
+		<!--http://code.alibabatech.com/schema/dubbo-->
+		<!--http://code.alibabatech.com/schema/dubbo/dubbo.xsd">-->
+
+
+	<!--&lt;!&ndash; 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 &ndash;&gt;-->
+	<!--<dubbo:application name="jfinal-duboo-demo-consumer" />-->
+	<!---->
+	<!--&lt;!&ndash; 设置本机IP，一定要正确 &ndash;&gt;-->
+	<!--<dubbo:protocol host="10.173.16.2" />-->
+
+	<!--&lt;!&ndash; 使用multicast广播注册中心暴露发现服务地址 &ndash;&gt;-->
+	<!--&lt;!&ndash;<dubbo:registry protocol="multicast" address="zookeeper://10.173.32.160:2181?unicast=false" />&ndash;&gt;-->
+	<!--&lt;!&ndash;<dubbo:registry protocol="zookeeper" address="zookeeper://10.173.32.160:2181?unicast=false"></dubbo:registry>&ndash;&gt;-->
+	<!--<dubbo:registry protocol="zookeeper" address="zookeeper://10.240.153.206:2181?unicast=false"></dubbo:registry>-->
+
+	<!--&lt;!&ndash; 声明BlogService服务代理 &ndash;&gt;-->
+	<!--<dubbo:reference id="blogService"-->
+		<!--interface="cn.gh.duboo.demo.service.BlogService" />-->
+<!--</beans>-->

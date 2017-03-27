@@ -24,7 +24,8 @@ public class Person {
     /*
     * 设置是否需要序列化，设为false则不会被jason序列化传出去
     * */
-    @JSONField(serialize = false)
+    @JSONField(serialize = true)
+//    @JSONField(serialize = false)
     private String remarks;
 
     public int getId() {
